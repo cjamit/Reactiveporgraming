@@ -40,11 +40,11 @@ public class ReactiveSources {
                 .delayElement(Duration.ofSeconds(1));
     }
 
-    public static Flux<Employee> userFlux() {
+    public static Flux<Employee> employeeFlux() {
         return Flux.just(
-                new Employee(1, "Nick", "Kelo"),
-                new Employee(2, "John", "Messos"),
-                new Employee(2, "Almo", "Matter"),
+                new Employee(1, "Sam", "Kelo"),
+                new Employee(2, "Tom", "Messos"),
+                new Employee(2, "Jack", "Matter"),
                 new Employee(4, "Sam", "Aldo"),
                 new Employee(5, "Matt", "Musk"),
                 new Employee(6, "Ken", "Griffin")

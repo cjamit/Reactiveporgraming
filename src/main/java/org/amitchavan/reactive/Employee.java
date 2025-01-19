@@ -13,7 +13,7 @@ public class Employee {
     private String employeefirstName;
     private String employeelastName;
 
-    public User(int id, String firstName, String lastName) {
+    public Employee(int id, String firstName, String lastName) {
         this.id = id;
         this.employeefirstName = firstName;
         this.employeelastName = lastName;
